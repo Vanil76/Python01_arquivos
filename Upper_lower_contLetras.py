@@ -1,0 +1,5 @@
+nome = input('Digite seu nome: ')
+print(f'seu nome em caixa alta é {nome.upper()}')
+print(f'seu nome em caixa baixa é {nome.lower()}')
+semespaco = nome.replace(' ', '')
+print(f'Seu nome tem: {len(semespaco)} letras')
